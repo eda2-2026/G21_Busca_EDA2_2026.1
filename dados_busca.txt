@@ -1,0 +1,27 @@
+algoritmo
+estrutura de dados
+hash table
+hash function
+busca binaria
+busca sequencial
+lista encadeada
+arvore binaria
+arvore AVL
+grafo
+algoritmo de dijkstra
+algoritmo de kruskal
+tabela hash
+colisao hash
+move to front
+programacao em C
+ponteiros em C
+alocacao dinamica
+complexidade de algoritmos
+big O notation
+estrutura de dados
+hash table
+algoritmo
+algoritmo
+hash function
+hash function
+hash function
