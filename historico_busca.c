@@ -18,8 +18,6 @@ Busca *tabela[TAM];
 Busca *historico = NULL;
 
 
-/* inicializa tabela */
-
 void inicializar(){
 
     for(int i=0;i<TAM;i++)
@@ -28,8 +26,6 @@ void inicializar(){
     historico = NULL;
 }
 
-
-/* função hash */
 
 unsigned int funcao_hash(char *str){
 
@@ -43,8 +39,6 @@ unsigned int funcao_hash(char *str){
     return h % TAM;
 }
 
-
-/* move para frente no histórico */
 
 void mover_para_inicio_historico(Busca *node){
 
@@ -69,8 +63,6 @@ void mover_para_inicio_historico(Busca *node){
     }
 }
 
-
-/* registrar busca */
 
 void registrar_busca(char *termo){
 
@@ -111,8 +103,6 @@ void registrar_busca(char *termo){
 }
 
 
-/* buscar termo */
-
 void buscar_termo(char *termo){
 
     int indice = funcao_hash(termo);
@@ -139,8 +129,6 @@ void buscar_termo(char *termo){
 }
 
 
-/* mostrar histórico */
-
 void mostrar_historico(){
 
     printf("\n===== HISTORICO DE BUSCA =====\n");
@@ -156,9 +144,6 @@ void mostrar_historico(){
         aux = aux->prox_hist;
     }
 }
-
-
-/* mostrar tabela hash */
 
 void mostrar_hash(){
 
@@ -187,8 +172,6 @@ void mostrar_hash(){
 }
 
 
-/* apagar histórico */
-
 void apagar_historico(){
 
     for(int i=0;i<TAM;i++){
@@ -210,9 +193,6 @@ void apagar_historico(){
 
     printf("Historico apagado com sucesso!\n");
 }
-
-
-/* carregar arquivo */
 
 void carregar_arquivo(){
 
@@ -239,8 +219,6 @@ void carregar_arquivo(){
 }
 
 
-/* menu */
-
 int main(){
 
     inicializar();
@@ -258,7 +236,6 @@ int main(){
         printf("5 - Carregar dados do arquivo\n");
         printf("6 - Apagar historico\n");
         printf("0 - Sair\n");
-        printf("Escolha: ");
 
         scanf("%d",&opcao);
         getchar();
