@@ -15,6 +15,19 @@ Este projeto implementa um sistema simples de histórico de buscas com o objetiv
 
 ## Screenshots
 
+![Menu](img/menu.png)
+
+*Menu do sistema de busca.*
+
+![Tabela Hash](img/hash.png)
+
+*Visualização da tabela hash.*
+
+![Histórico](img/historico.png)
+
+*Histórico de termos pesquisados.*
+
+
 ## Instalação
 
 ## Linguagem Utilizada

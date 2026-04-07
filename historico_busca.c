@@ -235,7 +235,7 @@ int main(){
         printf("4 - Mostrar tabela hash\n");
         printf("5 - Carregar dados do arquivo\n");
         printf("6 - Apagar historico\n");
-        printf("0 - Sair\n");
+        printf("7 - Sair\n");
 
         scanf("%d",&opcao);
         getchar();
@@ -272,7 +272,7 @@ int main(){
         else if(opcao == 6)
             apagar_historico();
 
-        else if(opcao == 0)
+        else if(opcao == 7)
             break;
     }
 
